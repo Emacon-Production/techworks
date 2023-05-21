@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Software Solutions",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "targetLink": "software-solutions",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689858/techworks/daniel-korpai-vHVfpi3h5xk-unsplash_hrudky.jpg"
+    },
+    {
+        "name": "CRM  Management & Sales Administration",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "targetLink": "crm-and-sales",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689857/techworks/carlos-muza-hpjSkU2UYSU-unsplash_qopr5u.jpg"
+    },
+    {
+        "name": "Creative Solutions",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "targetLink": "software-solutions",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689863/techworks/sam-mcghee-KieCLNzKoBo-unsplash_bylrcv.jpg"
+    },
+    {
+        "name": "Project Management",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "targetLink": "software-solutions",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689934/techworks/priscilla-du-preez-OEdkPaxYMXU-unsplash_jzlk0f.jpg"
+    }
+]

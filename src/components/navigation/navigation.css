@@ -1,0 +1,28 @@
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+}
+
+.logo_wrapper img {
+    height: 7rem;
+}
+
+.navlink_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navlink {
+    padding: 0rem 2rem;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.navlink:hover {
+    color: var(--secondary-color-hover);
+}
