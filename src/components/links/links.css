@@ -3,6 +3,8 @@
     margin: 0;
     border: none;
     background: none;
+    text-decoration: none;
+    width: fit-content;
   }
   
   .link_wrapper {
@@ -44,7 +46,7 @@
   }
   
   .link_wrapper:hover::after {
-    width: 60%;
+    width: 100%;
   }
   
   .link_wrapper:hover p::before {

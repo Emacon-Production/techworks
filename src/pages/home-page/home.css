@@ -51,7 +51,7 @@
     width: 8rem;
 }
 
-.about_sectionOne h4 {
+.about_sectionOne h3 {
     padding: 0rem 1rem;
     color: var(--secondary-color);
 }
@@ -81,7 +81,7 @@
     grid-template-columns: auto auto auto auto;
     align-items: center;
     justify-content: center;
-    gap: 50px 20px;
+    gap: 50px 25px;
 }
 
 .how_we_work_wrapper {
@@ -136,6 +136,58 @@
 }
 
 /* projects we've done section */
+.home_projects_wrapper {
+    padding: 3rem 15rem;
+}
+
+.home_projects_sectionOne {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.home_projects_sectionOne .border_dec {
+    border-bottom: 1px solid var(--secondary-color);
+    width: 8rem;
+}
+
+.home_projects_sectionOne h3 {
+    padding: 0rem 1rem;
+}
+
+.home_projects_sectionTwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px 0px; */
+}
+
+.home_project_wrapper.odd_project {
+    margin-top: 10rem;
+}
+
+.home_project_thumbnail {
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home_project_wrapper {
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+
+.home_project_wrapper p {
+    font-size: 17px;
+    /* padding: 0.5rem 0rem; */
+}
+
+.home_projects_sectionThree {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
 
 .tell_us_more_wrapper {
     padding: 3rem 15rem;
