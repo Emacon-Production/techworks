@@ -3,19 +3,19 @@
 }
 
 .whatwedo_hero_wrapper {
-    padding: 3rem 15rem;
+    padding: 1rem 8rem;
     color: var(--secondary-color);
 }
 
 .whatwedo_hero_sectionOne {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .whatwedo_hero_sectionTwo {
     font-size: 24px;
     font-weight: 400 !important;
-    padding: 3rem 0rem 0rem 10rem;
+    padding: 3rem 0rem 0rem 8rem;
     display: flex;
     align-items: flex-start;
 }
