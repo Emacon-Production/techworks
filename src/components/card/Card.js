@@ -1,6 +1,5 @@
 import React from 'react'
 import './card.css'
-import Button from '../Button/Button'
 import Links from '../links/Links'
 
 const Card = ({ name, description, routeName, thumbnail }) => {
