@@ -1,7 +1,7 @@
 [
     {
         "name": "Software Solutions",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "description": "As a leading software development agency, we are dedicated to transforming your digital vision into reality. Our team of skilled developers, designers, and strategists specializes in creating customized software solutions tailored to your specific needs.",
         "targetLink": "software-solutions",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689858/techworks/daniel-korpai-vHVfpi3h5xk-unsplash_hrudky.jpg"
     },
@@ -13,14 +13,14 @@
     },
     {
         "name": "Creative Solutions",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "targetLink": "software-solutions",
+        "description": "With our expertise in these areas, we bring your artistic vision to life with precision and creativity. Our creative service encompasses photography production & editing, video production & editing, and audio production & editing.",
+        "targetLink": "creative-solutions",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689863/techworks/sam-mcghee-KieCLNzKoBo-unsplash_bylrcv.jpg"
     },
     {
         "name": "Project Management",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "targetLink": "software-solutions",
+        "targetLink": "project-management",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689934/techworks/priscilla-du-preez-OEdkPaxYMXU-unsplash_jzlk0f.jpg"
     }
 ]
