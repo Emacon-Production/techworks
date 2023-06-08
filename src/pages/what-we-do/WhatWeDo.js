@@ -2,6 +2,7 @@ import React from 'react'
 import './whatwedo.css'
 import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/Footer/Footer'
+import directors from '../../assets/directors.json'
 
 const WhatWeDo = () => {
   return (
@@ -33,6 +34,23 @@ const WhatWeDo = () => {
                 </p>
             </div>
             
+            <div className='directors_wrapper'>
+                {
+                    directors.map((director, index) => (
+                        <div class="director_card" key={index}>
+                            <div className='director_data'>
+                                <img class="director_card-img" src={director.thumbnail} alt={director.name} />
+                                <div class="director_card-info">
+                                    <h2 class="director_text-title">{director.name}</h2>
+                                    <p class="director_text-body">{director.role}</p>
+                                    <p class="director_text-body">{director.bio}</p>
+                                </div>
+                            </div>
+                              
+                        </div>
+                    ))
+                }
+            </div>
         </div>
 
         {/* Footer Section */}
