@@ -29,3 +29,31 @@
 .softwaresolutions_hero_sectionTwo p {
     padding: 0rem 2rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .softwaresolutions_hero_wrapper {
+        padding: 1rem 3rem;
+    }
+    .softwaresolutions_hero_sectionTwo {
+        padding: 3rem 0rem 0rem 3rem;
+    }
+}
+@media screen and (max-width: 490px) {
+    .softwaresolutions_hero_wrapper {
+        padding: 1rem 2rem;
+    }
+    .softwaresolutions_hero_sectionOne {
+        font-size: 25px;
+    }
+    .softwaresolutions_hero_sectionTwo {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    .softwaresolutions_hero_sectionTwo .border_dec {
+        display: none;
+    }
+    
+    .softwaresolutions_hero_sectionTwo p {
+        padding: 0rem 0rem;
+        font-size: 18px;
+    }
+}

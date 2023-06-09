@@ -70,3 +70,37 @@
     font-size: 18px;
     padding: 2rem 0rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .footer_wrapper {
+        padding: 3rem 3rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .footer_wrapper {
+        padding: 3rem 2rem;
+    }
+    .footer_sectionOne {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0rem;
+        flex-direction: column;
+    }
+    .footer_logo_tagline img {
+        height: 6rem;
+    }
+    
+    .footer_logo_tagline h1 {
+        font-size: 2rem;
+        color: var(--secondary-color);
+    }
+    .footer_links_address {
+        flex-direction: column;
+    }
+    .footer_links {
+        padding: 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

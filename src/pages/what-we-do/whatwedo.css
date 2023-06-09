@@ -94,3 +94,61 @@
     width: 12rem;
     height: 12rem;
    }
+
+   @media screen and (max-width: 1080px) {
+    .whatwedo_hero_wrapper {
+        padding: 1rem 3rem;
+    }
+    .whatwedo_hero_sectionTwo {
+        padding: 2rem 0rem 0rem 3rem;
+    }
+    .directors_wrapper {
+        margin: 4rem 0rem 0rem 0rem;
+        flex-direction: column;
+    }
+    .director_card {
+        margin: 5rem 2rem;
+       }
+    .director_text-body {
+        font-size: 1.2rem;
+       }
+   }
+
+   @media screen and (max-width: 490px) {
+    .whatwedo_hero_wrapper {
+        padding: 1rem 2rem;
+    }
+    .whatwedo_hero_sectionOne {
+        font-size: 20px;
+    }
+    .whatwedo_hero_sectionTwo {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+    .whatwedo_hero_sectionTwo .border_dec {
+        display: none;
+    }
+    .whatwedo_hero_sectionTwo p {
+        padding: 0rem 0rem;
+        font-size: 18px;
+    }
+    .directors_wrapper {
+        margin: 1rem 0rem 0rem 0rem;
+        flex-direction: column;
+    }
+    .director_card {
+        width: 100%;
+        height: 700px;
+        margin: 0rem 0rem;
+        margin-top: 7rem;
+    }
+    .director_data{
+        transform: translateY(-10%);
+    }
+    .director_text-body {
+        font-size: 1rem;
+    }
+    .director_card-info {
+        padding: 3rem 1rem 2rem 1rem;
+        margin: 0;
+       }
+   }

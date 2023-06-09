@@ -34,6 +34,7 @@
 .about_wrapper img {
     height: 20rem;
     padding: 0rem 2rem;
+    object-fit: cover;
 }
 
 .about_wrapper p {
@@ -206,3 +207,107 @@
 .tell_us_more_wrapper h1 {
     font-size: 3rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .hero_wrapper {
+        padding: 1rem 3rem;
+    }
+    .hero_sectionTwo {
+        padding: 1rem 0rem 0rem 5rem;
+    }
+    .about_wrapper {
+        flex-direction: column;
+        padding: 3rem 3rem;
+    }
+    .home_services_wrapper {
+        padding: 2rem 3rem;
+    }
+    .home_services_sectionOne {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .home_services_sectionOne p {
+        width: 100%;
+    }
+    .home_services_sectionTwo {
+        grid-template-columns: auto auto;
+    }
+    .how_we_work_wrapper {
+        padding: 3rem 3rem;
+    }
+    .how_we_work_sectionOne {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .how_we_work_sectionOne p {
+        width: 100%;
+    }
+    .home_projects_wrapper {
+        padding: 3rem 3rem;
+    }
+    .tell_us_more_wrapper {
+        padding: 3rem 3rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero_wrapper {
+        padding: 0.5rem 2rem;
+    }
+    .hero_sectionOne {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .hero_sectionTwo {
+        padding: 1rem 0rem 0rem 0rem;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+    .about_wrapper {
+        padding: 2rem 2rem;
+    }
+    .about_wrapper img {
+        padding: 0rem 0rem;
+    }
+    .about_sectionOne {
+        margin-top: 2rem;
+    }
+    .about_sectionOne .border_dec {
+        width: 2rem;
+    }
+    .home_services_wrapper {
+        padding: 1rem 2rem;
+    }
+    .home_services_sectionOne h1 {
+        font-size: 2rem;
+    }
+    .home_services_sectionTwo {
+        grid-template-columns: auto;
+    }
+    .how_we_work_wrapper {
+        padding: 2rem 2rem;
+    }
+    .how_we_work_sectionTwo {
+        grid-template-columns: auto;
+    }
+    .home_projects_wrapper {
+        padding: 2rem 2rem;
+    }
+    .home_projects_sectionOne .border_dec {
+        width: 2rem;
+    }
+    .home_projects_sectionTwo {
+        grid-template-columns: auto;
+    }
+    .home_project_wrapper.odd_project {
+        margin-top: 2rem;
+    }
+    .home_project_wrapper {
+        margin-top: 2rem;
+    }
+    .home_project_thumbnail {
+        height: 15rem;
+    }
+}
+
+@media (max-width: 40.625rem) {}

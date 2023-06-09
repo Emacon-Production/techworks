@@ -1,12 +1,11 @@
 import React from 'react'
-import './softwaresolutions.css'
 import Navigation from '../../components/navigation/Navigation'
-import Footer from '../../components/Footer/Footer'
 import projects from '../../assets/projects.json'
 import Links from '../../components/links/Links'
+import Footer from '../../components/Footer/Footer'
 
-const SoftwareSolutions = () => {
-  const SoftwareProjects = projects.filter(project => project.projectType === "Software Solutions");
+const ProjectManagement = () => {
+    const ProjectManagementProjects = projects.filter(project => project.projectType === "Project Management");
   
   return (
     <div className='softwaresolutions_wrapper'>
@@ -16,23 +15,24 @@ const SoftwareSolutions = () => {
       <div className='softwaresolutions_hero_wrapper'>
             <div className='softwaresolutions_hero_sectionOne'>
                 <h1>
-                    Software <br />
-                    Solutions <br />
+                    Project <br />
+                    Management <br />
                 </h1>
             </div>
 
             <div className='softwaresolutions_hero_sectionTwo'>
                 <div className='border_dec' />
                 <p>
-                  As a leading software development agency, we are dedicated to transforming your digital vision into reality. 
-                  Our team of skilled developers, designers, and strategists specializes in creating customized software solutions 
-                  tailored to your specific needs. From conceptualization to implementation, we offer comprehensive services, including 
-                  custom software development, mobile app development, web application development, and more. Leveraging the latest 
-                  technologies and industry best practices, we deliver scalable, secure, and high-performing software solutions that 
-                  drive your business forward. With a focus on user experience, we ensure that our solutions are intuitive, engaging, a
-                  nd aligned with your brand. Whether you're a startup, SME, or enterprise, we are committed to delivering exceptional 
-                  results that exceed your expectations. Partner with us to leverage our expertise and unlock the full potential of technology 
-                  for your business.
+                    Our project management services provide comprehensive solutions to help you 
+                    successfully plan, execute, and deliver your projects on time and within budget. 
+                    With our expertise in project management methodologies and industry best practices, 
+                    we ensure that your projects are efficiently managed from initiation to closure, 
+                    resulting in successful outcomes. At the core of our services is a team of highly 
+                    skilled and experienced project managers who are adept at leading diverse teams and 
+                    driving project success. Our project managers possess strong leadership skills, 
+                    excellent communication abilities, and a keen eye for detail, enabling them to 
+                    effectively coordinate all project activities and ensure seamless collaboration among 
+                    stakeholders.
                 </p>
             </div>
       </div>
@@ -40,12 +40,12 @@ const SoftwareSolutions = () => {
       <div className='home_projects_wrapper'>
             <div className='home_projects_sectionOne'>
                 <div className='border_dec' />
-                <h3>OUR SOFTWARE PROJECTS</h3>
+                <h3>OUR PROJECT MANAGEMENT PROJECTS</h3>
             </div>
 
             <div className='home_projects_sectionTwo'>
                 {
-                    SoftwareProjects.map((project, index) => (
+                    ProjectManagementProjects.map((project, index) => (
                         <div className={`home_project_wrapper ${index % 2 === 0 ? "" : "odd_project"}`} key={index}>
                             <img 
                                 className='home_project_thumbnail' 
@@ -70,4 +70,4 @@ const SoftwareSolutions = () => {
   )
 }
 
-export default SoftwareSolutions
+export default ProjectManagement

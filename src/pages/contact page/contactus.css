@@ -13,9 +13,9 @@
 }
 
 .contact_form_wraper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .contact_form {
@@ -85,4 +85,32 @@
   /* reset input */
   .form__field:required, .form__field:invalid {
     box-shadow: none;
+  }
+
+  @media screen and (max-width: 1080px) {
+    .contactus_hero_wrapper {
+      padding: 1rem 3rem;
+    }
+    .contact_form {
+      width: 55%;
+      padding: 0rem 2rem 0rem 0rem;
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+    .contactus_hero_wrapper {
+      padding: 1rem 2rem;
+    }
+    .contactus_hero_sectionOne {
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .contact_form_wraper {
+      flex-direction: column;
+      padding: 0rem 2rem;
+    }
+    .contact_form {
+      width: 82%;
+      padding: 0rem 0rem 0rem 0rem;
+    }
   }
