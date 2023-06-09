@@ -1,0 +1,27 @@
+[
+    {
+        "menuName": "Home",
+        "type": "link",
+        "targetRoute": "/"
+    },
+    {
+        "menuName": "What We Do",
+        "type": "link",
+        "targetRoute": "/about"
+    },
+    {
+        "menuName": "Our Services",
+        "type": "link",
+        "targetRoute": "/services"
+    },
+    {
+        "menuName": "Works",
+        "type": "link",
+        "targetRoute": "/works"
+    },
+    {
+        "menuName": "Work With Us",
+        "type": "button",
+        "targetRoute": "/contact-us"
+    }
+]
