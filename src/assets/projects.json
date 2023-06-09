@@ -1,44 +1,34 @@
 [
     {
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689934/techworks/priscilla-du-preez-OEdkPaxYMXU-unsplash_jzlk0f.jpg",
-        "clientName": "Kings Limited",
-        "projectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309505/techworks/Screenshot_from_2023-06-09_14-15-42_kpacoh.png",
+        "clientName": "Mirco Foods",
+        "projectDescription": "Mirco Foods Limited is an innovative Kenyan business dedicated to making positive social impact in the agricultural sector in Africa. Founded in 2022, Mirco is one of the leading buyers, processors, traders and exporters of oil seeds, pulses and nuts in the region.",
         "projectType": "Software Solutions",
-        "subcategory": "Web App"
+        "subcategory": "Website Design & Development",
+        "projectLink": "https://mircofoods.co.ke/"
     },
     {
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689863/techworks/sam-mcghee-KieCLNzKoBo-unsplash_bylrcv.jpg",
-        "clientName": "Kings Limited",
-        "projectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "projectType": "CRM Management & Sales Administration",
-        "subcategory": "CRM Management"
-    },
-    {
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689858/techworks/daniel-korpai-vHVfpi3h5xk-unsplash_hrudky.jpg",
-        "clientName": "Kings Limited",
-        "projectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686311002/techworks/DSC02513_qrv1mg.jpg",
+        "clientName": "Red Bull | Wings For Life World Run 2023",
+        "projectDescription": "The Wings for Life World Run is a global charity event that aims to raise funds for spinal cord injury research. The unique aspect of the race is that there is no set finish line, and runners are pursued by the Catcher Car, which starts 30 minutes after the runners. The Catcher Car then gradually increases its speed, and when it passes a runner, their race is over. The last person running in each country are celebrated as the country winners.",
         "projectType": "Creative Solutions",
-        "subcategory": "Video Production"
+        "subcategory": "Photography",
+        "projectLink": ""
     },
     {
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684681552/techworks/charlesdeluvio-Lks7vei-eAg-unsplash_sgaiwb.jpg",
-        "clientName": "Kings Limited",
-        "projectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "projectType": "Project Management",
-        "subcategory": "Web App"
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686310493/techworks/Screenshot_from_2023-06-09_14-34-35_wxlq1e.png",
+        "clientName": "Red Bull | Doodle Art",
+        "projectDescription": "Red Bull Doodle Art is where art and technology meet with new opportunities for creative doodlers to let their minds wander through imaginative doodles.",
+        "projectType": "Creative Solutions",
+        "subcategory": "Video Production & Photography",
+        "projectLink": "https://youtu.be/yZ-rg7B2brw"
     },
     {
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689934/techworks/priscilla-du-preez-OEdkPaxYMXU-unsplash_jzlk0f.jpg",
-        "clientName": "Kings Limited",
-        "projectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309758/techworks/Screenshot_from_2023-06-09_14-22-18_st8dei.png",
+        "clientName": "The Lioness Rally Club",
+        "projectDescription": "The Lioness Rally Club are making history in Kenya, Africa and the world. They are fully representing women in the world of rallying and motor sports easing entry barriers for women in motor sports. They encourage women to become women mechanics, engineers, drivers, navigators, technical team members, service crew members during the rally process. Raising funds via their website helps them to preserve the environment by tree planting, to reduce our carbon footprint.",
         "projectType": "Software Solutions",
-        "subcategory": "Web App"
-    },
-    {
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689934/techworks/priscilla-du-preez-OEdkPaxYMXU-unsplash_jzlk0f.jpg",
-        "clientName": "Kings Limited",
-        "projectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "projectType": "CRM Management & Sales Administration",
-        "subcategory": "Web App"
+        "subcategory": "Website Design & Development",
+        "projectLink": "https://eager-chandrasekhar-e349c1.netlify.app/"
     }
 ]

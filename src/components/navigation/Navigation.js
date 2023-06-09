@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import './navigation.css'
 import Button from '../Button/Button'
 import { Link } from 'react-router-dom'

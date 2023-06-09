@@ -5,6 +5,7 @@
     background: none;
     text-decoration: none;
     width: fit-content;
+    cursor: pointer;
   }
   
   .link_wrapper {
