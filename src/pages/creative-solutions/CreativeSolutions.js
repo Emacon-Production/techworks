@@ -5,6 +5,8 @@ import Navigation from '../../components/navigation/Navigation'
 import projects from '../../assets/projects.json'
 
 const CreativeSolutions = () => {
+  const CreativeProjects = projects.filter(project => project.projectType === "Creative Solutions");
+  
   return (
     <div className='softwaresolutions_wrapper'>
       <Navigation />
@@ -40,7 +42,7 @@ const CreativeSolutions = () => {
 
             <div className='home_projects_sectionTwo'>
                 {
-                    projects.map((project, index) => (
+                    CreativeProjects.map((project, index) => (
                         <div className={`home_project_wrapper ${index % 2 === 0 ? "" : "odd_project"}`} key={index}>
                             <img 
                                 className='home_project_thumbnail' 
@@ -51,7 +53,7 @@ const CreativeSolutions = () => {
                             <p>
                                 {project.projectDescription}
                             </p>
-                            <p>{project.projectType}</p>
+                            <p>{project.projectType} | {project.subcategory}</p>
                             <Links />
                         </div>
                     )

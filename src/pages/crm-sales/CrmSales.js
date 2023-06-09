@@ -1,12 +1,11 @@
 import React from 'react'
-import './softwaresolutions.css'
 import Navigation from '../../components/navigation/Navigation'
-import Footer from '../../components/Footer/Footer'
 import projects from '../../assets/projects.json'
 import Links from '../../components/links/Links'
+import Footer from '../../components/Footer/Footer'
 
-const SoftwareSolutions = () => {
-  const SoftwareProjects = projects.filter(project => project.projectType === "Software Solutions");
+const CrmSales = () => {
+    const CrmSalesProjects = projects.filter(project => project.projectType === "CRM Management & Sales Administration");
   
   return (
     <div className='softwaresolutions_wrapper'>
@@ -16,23 +15,19 @@ const SoftwareSolutions = () => {
       <div className='softwaresolutions_hero_wrapper'>
             <div className='softwaresolutions_hero_sectionOne'>
                 <h1>
-                    Software <br />
-                    Solutions <br />
+                    CRM Management & <br />
+                    Sales Administration <br />
                 </h1>
             </div>
 
             <div className='softwaresolutions_hero_sectionTwo'>
                 <div className='border_dec' />
                 <p>
-                  As a leading software development agency, we are dedicated to transforming your digital vision into reality. 
-                  Our team of skilled developers, designers, and strategists specializes in creating customized software solutions 
-                  tailored to your specific needs. From conceptualization to implementation, we offer comprehensive services, including 
-                  custom software development, mobile app development, web application development, and more. Leveraging the latest 
-                  technologies and industry best practices, we deliver scalable, secure, and high-performing software solutions that 
-                  drive your business forward. With a focus on user experience, we ensure that our solutions are intuitive, engaging, a
-                  nd aligned with your brand. Whether you're a startup, SME, or enterprise, we are committed to delivering exceptional 
-                  results that exceed your expectations. Partner with us to leverage our expertise and unlock the full potential of technology 
-                  for your business.
+                    Our CRM and Sales Administration services are designed to streamline and optimize 
+                    your customer relationship management processes, enabling you to enhance customer 
+                    satisfaction, increase sales, and improve overall business efficiency. We offer a 
+                    comprehensive suite of tools and solutions to empower your sales team, automate 
+                    repetitive tasks, and provide valuable insights for informed decision-making
                 </p>
             </div>
       </div>
@@ -40,12 +35,12 @@ const SoftwareSolutions = () => {
       <div className='home_projects_wrapper'>
             <div className='home_projects_sectionOne'>
                 <div className='border_dec' />
-                <h3>OUR SOFTWARE PROJECTS</h3>
+                <h3>OUR CRM & SALES ADMINISTRATION PROJECTS</h3>
             </div>
 
             <div className='home_projects_sectionTwo'>
                 {
-                    SoftwareProjects.map((project, index) => (
+                    CrmSalesProjects.map((project, index) => (
                         <div className={`home_project_wrapper ${index % 2 === 0 ? "" : "odd_project"}`} key={index}>
                             <img 
                                 className='home_project_thumbnail' 
@@ -70,4 +65,4 @@ const SoftwareSolutions = () => {
   )
 }
 
-export default SoftwareSolutions
+export default CrmSales

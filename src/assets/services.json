@@ -7,7 +7,7 @@
     },
     {
         "name": "CRM  Management & Sales Administration",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "description": "We streamline and optimize your customer relationship management processes, enabling you to enhance customer satisfaction, increase sales, and improve overall business efficiency. ",
         "targetLink": "crm-and-sales",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689857/techworks/carlos-muza-hpjSkU2UYSU-unsplash_qopr5u.jpg"
     },
@@ -19,7 +19,7 @@
     },
     {
         "name": "Project Management",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+        "description": "Our project management services provide comprehensive solutions to help you successfully plan, execute, and deliver your projects on time and within budget.",
         "targetLink": "project-management",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689934/techworks/priscilla-du-preez-OEdkPaxYMXU-unsplash_jzlk0f.jpg"
     }

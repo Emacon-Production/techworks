@@ -136,7 +136,7 @@ const Home = () => {
                                     <p>
                                         {project.projectDescription}
                                     </p>
-                                    <p>{project.projectType}</p>
+                                    <p>{project.projectType} | {project.subcategory}</p>
                                     <Links />
                                 </div>
                             )
